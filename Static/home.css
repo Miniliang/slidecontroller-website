@@ -1,0 +1,117 @@
+h1 {
+color: black;
+font-family: "Lato";
+font-size: 45px;
+float: down;
+}
+a{
+text-decoration: none;
+color:black;
+margin-right: 70px;
+
+}
+
+ul{
+list-style-type: none;
+}
+
+#icon{
+color: #F1AD3D;
+font-weight: 900;
+}
+
+.topnav-left{
+float: left;
+}
+
+.topnav-right{
+float: right;
+}
+
+.topnav{
+font-family: "Lato";
+padding-top: 25px;
+position: fixed;
+width: 100%;
+top:0;
+padding-bottom: 35px;
+background-color: white;
+}
+
+.slogan{
+padding-top: 200px;
+height: 400px;
+width: 100%;
+padding-left: 55px;
+
+}
+
+.introduction{
+
+}
+
+.row1{
+display: flex;
+flex-wrap:wrap;
+
+}
+
+
+.column1{
+flex: 60%;
+max-width: 60%;
+background-size: cover;
+height: 400ox;
+}
+
+
+.column1 img{
+width:500px;
+height: 600px;
+object-fit:contain;
+margin-left: 40px;
+}
+
+
+
+.column2{
+flex: 40%;
+max-width: 40%;
+text-align: center;
+margin-top: 200px;
+}
+
+#homelink{
+margin-left: 70px;
+font-weight: bold;
+}
+
+#toprightimage{
+flex: 40%;
+max-width: 58%;
+float: left;
+background-image: url("slide.png");
+background-size: cover;
+
+}
+
+#topleftcolumn{
+max-width: 42%;
+}
+
+hr.rounded {
+
+}
+
+#img2{
+position: absolute;
+top: 80px; left: 500px;
+max-width: auto;
+max-height: 70%;
+}
+
+
+
+
+
+
