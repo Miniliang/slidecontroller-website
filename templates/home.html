@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Tittle</title>
     <link rel="stylesheet" type = "text/css" href = " ./static/home.css"/>
@@ -22,13 +21,18 @@
 <!--       <a href="{{url_for('pv')}}" >HOME </a>-->
 <!--       <a href="{{url_for('pv')}}" >DOWNLOAD</a>-->
     <div class = "topnav-left">
+        <img id ="icon"src = "./static/picture/icon.png">
+
         <h8>
-            <a id = "homelink"  href="{{url_for('home_page')}}" >SLIDECONTROLLER</a>
+            <a class="a" id = "homelink" class="thick" href="{{url_for('home_page')}}" ><b>SLIDECONTROLLER</b></a>
         </h8>
     </div>
     <div class="topnav-right">
-         <a href="{{url_for('pv')}}" >INSTRUCTION</a>
-         <a href="{{url_for('dw')}}" >DOWNLOAD</a>
+         <a class="a" href="{{url_for('home_page')}}" >HOME</a>
+         <a class="a" href="{{url_for('pv')}}" >INSTRUCTION</a>
+         <a class="a" href="{{url_for('ca')}}" >CONTACT US</a>
+    <button> <a id="b" href = "./static/picture/icon.png" download>DOWNLOAD</a></button>
+
     </div>
 
 </div>
@@ -42,31 +46,85 @@
     PUBLIC SPEAKING PARTNER
      <hr class="rounded">
 </h1>
+    <h1 id = "slogan2">
+    Better Experience & Smoother Flow
+</h1>
 </div>
 </div>
-    <div class = "column1" id = "toprightimage">
-        <div class = "slogan">
-            </div>
+    <div class = "column2" >
+<!--        <img id = "video1" src = "./static/home.gif">-->
+            <video id = "video1"width="300" height="500" autoplay = "autoplay" loop>
+                  <source src="./static/picture/home.mp4" type="video/mp4">
+            </video>
+
     </div>
 </div>
 
+
+
+<div class = "row1">
+
+    <div class = "column2" >
+<!--        <img id = "video1" src = "./static/home.gif">-->
+            <video id = "video1"width="300" height="500" autoplay = "autoplay" loop>
+                  <source src="./static/picture/home.mp4" type="video/mp4">
+            </video>
+
+    </div>
+    <div class = "column1" id = "topleftcolumn">
+<div class = "slogan">
+<h1>
+    YOUR BEST
+</h1>
+<h1>
+    PUBLIC SPEAKING PARTNER
+     <hr class="rounded">
+</h1>
+    <h1 id = "slogan2">
+    Better Experience & Smoother Flow
+</h1>
+</div>
+</div>
+</div>
 <div class = "introduction">
 <!--    Tittle-->
 </div>
 
+
+
+
+
+
 <div class = "row1">
 
-    <div class = "column1">
-       <img src = "./static/voice.jpeg" class= "img1">
+    <div class = "column2" id = "confidence">
+        <video id = "left1"width="500" height="600" autoplay = "autoplay" loop>
+                  <source src="./static/picture/left1.mp4" type="video/mp4">
+            </video>
+
 </div>
-    <div class = "column2">
-        <h1>
-            Why Choose Us
+    <div class = "column1" >
+        <div class = "slogan">
+        <h1 id="title1">
+            Present With Confidence
+
         </h1>
-        <p>
-            faster,
+        <p id="paragraph1">
+            Start present right away without clicking any<br>
+            button to switch the slide, less worry, easy to<br>
+            use, more important allow you show your<br>
+            best self in front of public
         </p>
 </div>
+    </div>
+</div>
+    <div class="row3">
+        <div>
+            <video id = "video4"width="500" height="500" autoplay = "autoplay" loop>
+                  <source src="./static/picture/video4.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
 
 </div>
 </body>

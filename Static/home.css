@@ -1,27 +1,28 @@
 h1 {
-color: black;
+color: #868686;
 font-family: "Lato";
 font-size: 45px;
 float: down;
 }
-a{
-text-decoration: none;
-color:black;
-margin-right: 70px;
 
+.a{
+text-decoration: none;
+color:#5C5C5C;
+margin-right: 79px;
+}
+
+.a.thick {
+  font-weight: bold;
 }
 
 ul{
 list-style-type: none;
 }
 
-#icon{
-color: #F1AD3D;
-font-weight: 900;
-}
 
 .topnav-left{
 float: left;
+font-weight: bold;
 }
 
 .topnav-right{
@@ -36,6 +37,7 @@ width: 100%;
 top:0;
 padding-bottom: 35px;
 background-color: white;
+
 }
 
 .slogan{
@@ -53,7 +55,7 @@ padding-left: 55px;
 .row1{
 display: flex;
 flex-wrap:wrap;
-
+max-height: 70%;
 }
 
 
@@ -70,45 +72,107 @@ width:500px;
 height: 600px;
 object-fit:contain;
 margin-left: 40px;
+margin-top: 5px;
 }
 
 
 
 .column2{
-flex: 40%;
+flex: 20%;
 max-width: 40%;
 text-align: center;
-margin-top: 200px;
+margin-top: 160px;
+padding-right: 100px;
 }
 
 #homelink{
-margin-left: 70px;
+margin-left: 89px;
 font-weight: bold;
+color: #F7AF39;
+text-decoration-thickness: 18px;
 }
 
 #toprightimage{
 flex: 40%;
-max-width: 58%;
+max-width: 20%;
 float: left;
-background-image: url("slide.png");
 background-size: cover;
 
 }
 
 #topleftcolumn{
-max-width: 42%;
+max-width: 60%;
 }
 
 hr.rounded {
 
 }
 
-#img2{
+
+
+*{-webkit-font-smoothing: antialiased;}
+
+#icon{
+max-height: 46px;
+max-width: 43px;
 position: absolute;
-top: 80px; left: 500px;
-max-width: auto;
-max-height: 70%;
+top: 14px; left: 35px;
 }
+
+#video1{
+position: static;
+
+}
+
+#slogan2{
+color: #878484;
+font-size: 18px;
+}
+
+#video2{
+margin-right: 100px;
+object-fit: contain;
+}
+
+button{
+text-decoration: none;
+background-color: #F7AF39;
+color: white;
+padding: 10px;
+margin-right: 70px;
+border: 0px ;
+outline: 0px;
+border-radius:4px;
+}
+
+#b{
+text-decoration: none;
+background-color: #F7AF39;
+color: white;
+}
+
+#paragraph1{
+color: #868686;
+font-family: "Lato";
+font-size: 20px;
+padding: 10px;
+text-align: justify;
+margin-left: 82px;
+}
+
+#title1{
+font-size: 36px
+}
+
+#video3{
+margin-left: 900px;
+
+}
+
+.col{
+
+}
+
 
 
 
