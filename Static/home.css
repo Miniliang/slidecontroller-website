@@ -12,7 +12,7 @@ margin-right: 79px;
 }
 
 .a.thick {
-  font-weight: bold;
+ font-weight: bold;
 }
 
 ul{
@@ -37,7 +37,6 @@ width: 100%;
 top:0;
 padding-bottom: 35px;
 background-color: white;
-
 }
 
 .slogan{
@@ -45,17 +44,13 @@ padding-top: 200px;
 height: 400px;
 width: 100%;
 padding-left: 55px;
-
 }
 
-.introduction{
-
-}
 
 .row1{
 display: flex;
 flex-wrap:wrap;
-max-height: 70%;
+max-height: 40%;
 }
 
 
@@ -63,7 +58,7 @@ max-height: 70%;
 flex: 60%;
 max-width: 60%;
 background-size: cover;
-height: 400ox;
+height: 450ox;
 }
 
 
@@ -85,30 +80,22 @@ margin-top: 160px;
 padding-right: 100px;
 }
 
+
 #homelink{
 margin-left: 89px;
 font-weight: bold;
 color: #F7AF39;
-text-decoration-thickness: 18px;
 }
 
-#toprightimage{
-flex: 40%;
-max-width: 20%;
-float: left;
-background-size: cover;
 
-}
 
 #topleftcolumn{
 max-width: 60%;
 }
 
+
 hr.rounded {
-
 }
-
-
 
 *{-webkit-font-smoothing: antialiased;}
 
@@ -121,6 +108,10 @@ top: 14px; left: 35px;
 
 #video1{
 position: static;
+}
+
+#video2{
+padding-top: 0px;
 
 }
 
@@ -129,10 +120,6 @@ color: #878484;
 font-size: 18px;
 }
 
-#video2{
-margin-right: 100px;
-object-fit: contain;
-}
 
 button{
 text-decoration: none;
@@ -151,27 +138,88 @@ background-color: #F7AF39;
 color: white;
 }
 
-#paragraph1{
+p{
 color: #868686;
 font-family: "Lato";
 font-size: 20px;
-padding: 10px;
-text-align: justify;
-margin-left: 82px;
+padding: 0px;
+text-align: left;
+margin-left: 0px;
+line-height: 1.5em;
 }
 
-#title1{
-font-size: 36px
+.title{
+font-size: 30px
+}
+
+
+video{
+pointer-event: none;
+}
+
+.column3{
+flex: 40%;
+max-width: 50%;
+background-size: cover;
+height: 350ox;
+margin-left: 90px;
+}
+
+.column4{
+flex: 40%;
+max-width: 50%;
+background-size: cover;
+height: 350ox;
+text-align: left;
+}
+
+#title2{
+margin-left: 90px;
+}
+
+#paragraph2{
+margin-left:90px;
 }
 
 #video3{
-margin-left: 900px;
+margin-top:0px;
 
 }
 
-.col{
-
+#lastcolumn{
+max-width: 50%;
 }
+
+
+
+#slogan3{
+padding-top: 200px;
+}
+
+#img2{
+width: 340px;
+height: 470x;
+margin-top: 150px;
+margin-left: 600px;
+}
+
+#contact{
+wdith: 400;
+height: 350px;
+position: absolute;
+top: 200px;
+left: 200px;
+}
+
+.Ctitle{
+position: absolute;
+left: 800px;
+bottom: 460px;
+font-size: 25px;
+
+
+
+
 
 
 
