@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+    <link rel="stylesheet" type = "text/css" href = " ./static/home.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+
+<!--&lt;!&ndash; Latest compiled and minified JavaScript &ndash;&gt;-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>-->
+</head>
+
+<body>
+<div class ="topnav">
+
+<!--       <a href="{{url_for('pv')}}" >PICOVOICE</a>-->
+<!--       <a href="{{url_for('pv')}}" >HOME </a>-->
+<!--       <a href="{{url_for('pv')}}" >DOWNLOAD</a>-->
+    <div class = "topnav-left">
+        <img id ="icon"src = "./static/picture/icon.png">
+
+        <h8 id = "homelink" class="thick" >
+            <b>SLIDECONTROLLER</b>
+        </h8>
+    </div>
+    <div class="topnav-right">
+         <a class="a" href="{{url_for('home_page')}}" >HOME</a>
+         <a class="a" href="{{url_for('pv')}}" >INSTRUCTION</a>
+         <a class="a" href="{{url_for('ca')}}" >CONTACT US</a>
+    <button> <a id="b" href = "./static/picture/icon.png" download>DOWNLOAD</a></button>
+
+    </div>
+
+</div>
+
+<div class = "row1">
+ <div class = "column1" id = "topleftcolumn">
+<div class = "slogan">
+<h1>
+    YOUR BEST
+</h1>
+<h1>
+    PUBLIC SPEAKING PARTNER
+     <hr class="rounded">
+</h1>
+    <h1 id = "slogan2">
+    Better Experience & Smoother Flow
+</h1>
+</div>
+</div>
+    <div class = "column2" >
+<!--        <img id = "video1" src = "./static/home.gif">-->
+            <video id = "video1"width="300" height="500" autoplay = "autoplay" loop>
+                  <source src="./static/picture/home.mp4" type="video/mp4">
+            </video>
+
+    </div>
+</div>
+
+
+
+
+<div class = "row1">
+
+    <div class = "column3"  >
+<!--        <img id = "video1" src = "./static/home.gif">-->
+            <video id = "video2"width="500" height="500" autoplay = "autoplay" loop>
+                  <source src="./static/picture/left1.mp4" type="video/mp4">
+            </video>
+
+    </div>
+    <div  class = "column4" >
+<div id="slogan3">
+
+        <h1 class = "title" >
+            Present With Confidence
+
+        </h1>
+        <p id="paragraph1">
+            Start present right away without clicking any button to<br>
+            switch the slide, less worry, easy to use, more important<br>
+            show your best self in front of public
+        </p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class = "row1">
+ <div class = "column1" id = "lastcolumn">
+<div class = "slogan">
+        <h1 class="title" id="title2">
+            Say-bye-bye to Clicker
+
+        </h1>
+        <p id="paragraph2">
+            Control the slide with your own pace by<br>
+            simply saying the word "Next" & "Previous",<br>
+            Or you can design your own keyword<br>
+        </p>
+</div>
+</div>
+    <div class = "column2"  id="video3">
+<!--        <img id = "video1" src = "./static/home.gif">-->
+           <video id = "video1"width="370" height="570" autoplay = "autoplay" loop>
+                  <source src="./static/picture/right2.mp4" type="video/mp4">
+            </video>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
